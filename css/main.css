@@ -2,16 +2,29 @@
 	box-sizing: border-box;
 }
 
+html, body {
+	height: 100%;
+	margin:0;
+	overflow: hidden;
+}
+
+main {
+	height: 100%;
+	margin:0;
+}
 .container {
-	width: 70%;
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 }
 
 .game {
-	background: #eee;
-	width: 500px;
-	height: 300px;
-	margin: 0 auto;
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/af/90/b4/af90b49d6cb9fc60d555374196046eb9.png");
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+		padding-left: 10px;
+	margin:0;
 }
 
 .player1 {
@@ -20,4 +33,36 @@
 	background: #ff4040;
 	position: relative;
 	left: 0;
+}
+
+.yarn {
+	position: relative;
+	background: url("http://vignette2.wikia.nocookie.net/clubpenguin/images/b/b8/Clothing_Icons_5436.png/revision/latest?cb=20140418022827");
+	height: 200px;
+	width: 200px;
+	left: 1200px;
+	top: 50px;
+	background-size: 200px 200px;
+	background-repeat: none;
+}
+
+#player1 {
+	background: url("http://vignette4.wikia.nocookie.net/clubpenguin/images/c/c3/Puffle_2014_Transformation_Player_Card_Blue_Border_Collie.png/revision/latest?cb=20140419083743");
+	height: 175px;
+	width: 175px;
+	top: 135px;
+	background-size: 175px 175px;
+	background-repeat: none;
+}
+
+#player2 {
+	height: 175px;
+	width: 175px;
+	background: #ff4040;
+	position: relative;
+	left: 0;
+	top: 270px;
+	background: url("http://vignette4.wikia.nocookie.net/clubpenguin/images/6/6e/Puffle_2014_Transformation_Player_Card_Orange_Tabby_Cat.png/revision/latest?cb=20140419083742");
+	background-size: 175px 175px;
+	background-repeat: none;
 }
