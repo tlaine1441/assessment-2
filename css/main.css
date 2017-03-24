@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.game {
+	background: #eee;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.player1 {
+	width: 20px;
+	height: 20px;
+	background: #ff4040;
+	position: relative;
+	left: 0;
+}
