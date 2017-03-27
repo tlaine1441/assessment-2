@@ -118,7 +118,7 @@ button:active {
 	font-size: 90px;
 	font-family: 'Bangers', 'san serif';
 	margin: 0;
-	padding-top: 250px;
+	padding-top: 50px;
 }
 
 .directions {
@@ -148,3 +148,19 @@ button:active {
 	top: 270px;
 	width: 175px;
 }
+
+@media screen and (min-width:900px) {
+	.landing-content h1 {
+		padding-top: 250px;
+	}
+}
+
+@media screen and (min-width:500px) {
+	.landing-content h1 {
+		padding-top: 100px;
+	}
+}
+
+
+
+
