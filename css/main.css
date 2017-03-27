@@ -17,7 +17,7 @@ h1 {
 	margin: 0;
 	font-size: 150px;
 	font-family: 'Bangers', 'san serif';
-	color: rgb(162, 58, 206);
+	color: #333;
 }
 
 header {
@@ -26,6 +26,41 @@ header {
 	height: 80px;
 	text-align: center;
 	letter-spacing: 3px;
+}
+
+
+footer {
+	background: #333;
+	color: #fff;
+	font-family: 'Bangers', 'san serif';
+	margin: 0;
+	text-align: center;
+	height: 10%;
+	padding: 30px;
+}
+
+footer p {
+	margin: 0;
+	letter-spacing: 1px;
+}
+
+button {
+	background: rgb(51, 204, 255);
+	padding: 20px 40px;
+	font-family: 'Bangers', 'san serif';
+	font-size: 25px;
+	border: none;
+	border-radius: 3px;
+	margin-top: 40px;
+	outline: none;
+}
+
+button:hover {
+	background: rgb(56, 208, 255);
+}
+
+button:active {
+	background: rgb(255, 153, 1);
 }
 
 .container {
@@ -61,7 +96,36 @@ header {
 	background-repeat: none;
 }
 
-#player1 {
+.landing-main {
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/af/90/b4/af90b49d6cb9fc60d555374196046eb9.png");
+	background-size: cover;
+	width: 100%;
+	height: 90%;
+	margin:0;
+}
+
+.landing-content {
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+}
+
+.landing-content h1 {
+	margin: 0;
+	padding-top: 250px;
+	font-size: 90px;
+	font-family: 'Bangers', 'san serif';
+	color: #333;
+}
+
+.directions {
+	text-align: center;
+	font-family: 'Bangers', 'san serif';
+	font-size: 25px;
+}
+
+
+.player1 {
 	background: url("http://vignette4.wikia.nocookie.net/clubpenguin/images/c/c3/Puffle_2014_Transformation_Player_Card_Blue_Border_Collie.png/revision/latest?cb=20140419083743");
 	height: 175px;
 	width: 175px;
@@ -71,7 +135,7 @@ header {
 	background-repeat: none;
 }
 
-#player2 {
+.player2 {
 	height: 175px;
 	width: 175px;
 	background: #ff4040;
